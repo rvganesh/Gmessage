@@ -8,7 +8,9 @@ import android.view.MenuItem;
 import gmessage.rvg.com.gmessage.R;
 
 public class SecondActivity extends ActionBarActivity {
-
+    
+    private String TAG ="SecondActivity";
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
