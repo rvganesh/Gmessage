@@ -9,7 +9,7 @@ import gmessage.rvg.com.gmessage.R;
 
 public class SecondActivity extends ActionBarActivity {
     
-    private String TAG ="SecondActivity";
+    private String TAG =SecondActivity.class.getSimpleName();
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
